@@ -1,0 +1,307 @@
+#formulario{
+    display: block;
+    padding-left: 320px;
+}
+
+.categ:hover > a{
+    color: white !important;
+}
+
+.categ > ul > li:hover > a{
+    color: white !important;
+}
+
+input[type="text"]{
+    width: 250px;
+    text-align: center;
+    font-size: medium;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid orange !important;
+    border: none;
+    color: black;
+}
+
+input[type="password"]{
+    width: 250px;
+    text-align: center;
+    font-size: medium;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid orange !important;
+    border: none;
+    color: black;
+}
+
+input[type="Submit"]{
+    background: orange;
+    color: white;
+    padding: 15px;
+    padding-left: 105px;
+    padding-right: 105px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px black;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+input[type="Submit"]:hover{
+    border-radius: 10px;
+    background: orangered;
+
+}
+
+*{
+    color: rgb(255, 35, 1);
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    text-align: left;
+    margin-top: 54px;
+    box-shadow: 0px 1px 0px orange;
+}
+
+h2{
+    text-align: center;
+    color: black;
+    padding-right: 300px;
+    margin-top: -60px;
+}
+
+.lateral{
+    width: 1250px;
+    min-height: 110px;
+    /*position: fixed;*/
+}
+
+#aside{
+    height: 600px;
+    float: right;
+    margin-top: -115px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: white;
+    border-left: 3px solid orangered;
+    box-shadow: 0px 2px 2px orange;
+    background-color: rgba(0, 0, 0, 0.900);
+}
+
+#aside li ul{
+    display: none;
+    position: absolute;
+}
+
+#aside li:hover > ul {
+    display: block;
+}
+
+#aside li > ul {
+    right: 4px;
+    background-color: rgba(0, 0, 0, 0.900);
+    margin-top: 5px;
+    padding-right: 94px;
+    padding-left: 94px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    border: 1px solid orangered;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.categ{
+    padding-left: 60px;
+    padding-right: 60px;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#nox{
+    width: 100px;
+    border-radius: 50px;
+    padding-left: 40px;
+}
+
+.datos{
+    color: black;
+    font-size: medium;
+}
+
+.most{
+    margin-top: -50px;
+    padding-left: 125px;
+    float: left;
+    border-right: 1px solid orange;
+    padding-right: 10px;
+}
+
+#editar{
+    background: orange;
+    color: white;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px black;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-left: 25px;
+    margin-top: -300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#cerrar{
+    background: orange;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px black;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-top: -250px;
+    margin-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#editar:hover{
+    border-radius: 10px;
+    background: orangered;
+}
+
+#cerrar:hover{
+    border-radius: 10px;
+    background: orangered;
+}
+
+.ultima{
+    margin-top:-178px;
+    padding-left: 550px;
+}
+
+.listapro{
+    color: black;
+    text-align: center;
+    padding-left: 40px;
+    max-width: 200px;
+}
+
+.producto{
+    height: 250px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 30px;  
+    box-shadow: 0px 2px 0px orange;
+    margin-left: 75px;
+}
+
+h3{
+    padding-left: 100px;
+}
+
+.final p{
+    color: black;
+    font-size: small;
+    padding-left: 25px;
+    padding-top: 40px;
+}
+
+.final a{
+    color: black;
+    font-size: small;
+    padding-left: 25px;
+    padding-top: 40px;
+}
+
+textarea{
+    margin-top: 20px;
+    padding-bottom: 92px;
+    padding-left: 10px;
+    padding-right: 45px;
+    border-style: none;
+    border:  1px solid orange;
+    color: black;
+    font-size: medium;
+}
+
+.ayuda{
+    border-right: 1px solid orange;
+    padding-right: 10px;
+    float: left;
+    height: 175px;
+}
+
+#u{
+    padding-left: 230px;
+}
+
+#formulario5{
+    display: block;
+    padding-left: 420px;
+}
+
+#formulario3 input[type="Submit"]{
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#formulario3{
+    display: block;
+    padding-left: 350px;
+    padding-bottom: 39px;
+}
+
+#error p{
+    color: black;
+    font-style: bold;
+    font-size: xx-large;
+}
+
+#error{
+    text-align: center;
+}
+
+#rota{
+    width: 261px;
+    margin-top: 50px;
+}
+
+#rayo{
+    width: 120px;
+    float: center;
+}
+
+.final:hover a{
+    color: orange;
+}
+
+footer{
+    margin-top: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-left: -34px;
+    text-align: center;
+    border-top: 1px solid orangered;
+    border-left: 1px solid orangered;
+    max-width: 931px;
+    font-style: bold;
+}
